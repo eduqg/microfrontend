@@ -2,9 +2,33 @@
 
 Microfrontend with create-mf-app and module federation.
 
-https://www.youtube.com/watch?v=s_Fs4AXsTnA
+### SolidJS Host
+<img src="./host.png" alt="SolidJS Host" />
 
-## Steps
+### SolidJS Remote
+<img src="./remote.png" alt="SolidJS Remote" />
+
+### ReactJS Host
+<img src="./react-host.png" alt="ReactJS Host" />
+
+[Video](https://www.youtube.com/watch?v=s_Fs4AXsTnA)
+
+## Getting started
+
+Open host, remote, react-host and
+
+```console
+yarn
+yarn start
+```
+
+Open on 
+
+[http://localhost:8080/](http://localhost:8080/)
+[http://localhost:3000/](http://localhost:3000/)
+[http://localhost:3001/](http://localhost:3001/)
+
+## Steps made
 
 ```console
 npx create-mf-app
@@ -36,32 +60,15 @@ remotes: {
 
 After that, go to host and import Counter because is shared.
 
-````
+Creating a new host in react
+
 
 ```console
+npx create-mf-app
 
-````
-
-```console
-
+react
 ```
 
-```console
+Go to remote (solid-js) app and create counterWrapper, then expose it on webpack.config.js.
 
-```
-
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
+Import counterWrapper in react-host App.jsx

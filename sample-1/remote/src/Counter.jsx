@@ -4,7 +4,7 @@ export default () => {
   const [count, setCount] = createSignal(0)
 
   return (
-    <div style="background-color: lightblue">
+    <div style="background-color: lightgreen">
       <div>Count = {count()}</div>
       <button
         type='button'
