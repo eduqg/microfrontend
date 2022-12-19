@@ -14,3 +14,17 @@ With create-mf-app and module federation.
 <img src="./sample-1/react-host.png" alt="ReactJS Host" />
 
 [Sample 1 README.md](./sample-1/README.md)
+
+## Microfrontend sample-2
+
+With react apps, adding script on head and mounting.
+
+### ReactJS 
+
+- Container (Host)
+- Cats
+- Dogs
+
+<img src="./sample-2/micro-frontend-cats-dogs.png" alt="Cats and Dogs Microfrontend" />
+
+[Sample 2 README.md](./sample-2/README.md)
